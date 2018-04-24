@@ -1,7 +1,8 @@
 
-public class Proprietario extends Usuario {
+public class Proprietario {
 	private MoedaDeTroca payform;
-
+	private Usuario usuario;
+	
 	public MoedaDeTroca getPayform() {
 		return payform;
 	}

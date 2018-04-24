@@ -1,7 +1,7 @@
 
-public class Locatario extends Usuario {
+public class Locatario  {
 	private MoedaDeTroca pag;
-
+	private Usuario usuario;
 	public MoedaDeTroca getPag() {
 		return pag;
 	}
